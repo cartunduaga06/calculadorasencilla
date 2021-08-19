@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi calculadora con javaScript</title>
+</head>
+
+<body>
+
+    <form action="" id="miFormulario">
+        <label for="valor1"> Numero 1: </label>
+        <input id="valor1" type="number" placeholder="escribe un numero" autofocus>
+        <button onclick="limpiar();">limpiar campos</button>
+        <br>
+        <br>
+        <label for="">Numero 2:</label>
+        <input type="number" name="" id="valor2" placeholder="escribe otro némero">
+        <br>
+        <br>
+        <button type="button" onclick="sumar()">sumar</button>
+        <button type="button" onclick="restar()">restar</button>
+        <button type="button" onclick="multiplicar()">multiplicar</button>
+        <button type="button" onclick="dividir()">dividir</button>
+
+        <p> el resultado es: <span id="resultado"></span></p>
+    </form>
+
+
+
+   
+</body>
+<script src="js/funciones.js"></script>
+</html>
